@@ -7,8 +7,18 @@ public class Books {
     private String year;
     private String isbn;
     private  String image;
-   // private boolean borrowed;
-    private boolean isBorrowed;
+    // private boolean borrowed;
+    private boolean borrowed;
+
+
+    public boolean isBorrowed() {
+        return borrowed;
+    }
+
+    public void setBorrowed(boolean borrowed) {
+        this.borrowed = borrowed;
+    }
+
 
     public String getTitle() {
         return title;
@@ -50,7 +60,5 @@ public class Books {
         this.image = image;
     }
 
-    public boolean isBorrowed(){
-        return false;
-    }
+
 }
