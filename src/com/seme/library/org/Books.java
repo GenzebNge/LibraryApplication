@@ -5,17 +5,17 @@ public class Books {
     private String title;
     private String author;
     private String year;
-    private String isbn;
-    private  String image;
-    // private boolean borrowed;
-    private boolean borrowed;
+   /* private String isbn;
+    private  String image;*/
+   // private boolean borrowed=false;
+    private String borrowed;
 
 
-    public boolean isBorrowed() {
+    public String getBorrowed() {
         return borrowed;
     }
 
-    public void setBorrowed(boolean borrowed) {
+    public void setBorrowed(String borrowed) {
         this.borrowed = borrowed;
     }
 
@@ -44,7 +44,7 @@ public class Books {
         this.year = year;
     }
 
-    public String getIsbn() {
+    /*public String getIsbn() {
         return isbn;
     }
 
@@ -59,6 +59,6 @@ public class Books {
     public void setImage(String image) {
         this.image = image;
     }
-
+*/
 
 }
